@@ -15,17 +15,31 @@
     justify-content: center;
 }
 
-
-
 .section_third-txt-container{
     width: 668px;
     height: 287px;
     background: #333333;
-    padding-left: 50px;
-    padding-right: 30px;
     padding-top: 49px;
+    padding-left: 49px;
 }
 
 .info-box{
     display: flex;
+}
+
+
+.quote-mark{
+    color: #5474FD;
+    position: absolute;
+}
+
+.quote-txt{
+    text-indent: 8%;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.quote{
+    display: flex;
+    align-items: baseline;
 }
