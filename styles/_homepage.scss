@@ -65,6 +65,8 @@ h1{
 }
 
 .form-btn{
+    display: flex;
+    justify-content: center;
     padding: 20px;
     box-sizing: border-box;
     width: 153px;
@@ -162,6 +164,8 @@ input::placeholder{
         text-decoration: none;
         color: $secondary-color;
     }
+    overflow: hidden;
+    position: relative;
 }
 
 a{
