@@ -41,7 +41,8 @@
                 <li><a class="menu-item" href="#what-we-do">What we do</a></li>
                 <li><a class="menu-item" href="#travel-with-us">Travel with us</a></li>
                 <li><a class="menu-item" href="#footer">Contact us</a></li>
-            </ul>    
+            </ul>
+            <a class="burger" onclick="burgerMenu()"><i class="fa fa-bars fa-2x"></i></a>    
         </nav>
     </section>
     <section class="why-choose-us" id="why-choose-us">
@@ -136,8 +137,16 @@
         </div>
     </footer>
     
-
-
+    <script>
+        function burgerMenu() {
+            let burger = document.getElementById("nav-menu");
+            if (burger.className === "nav") {
+            burger.className += " responsive";
+            } else {
+            burger.className = "nav";
+            }
+        }
+    </script>
 
 
 </body>
