@@ -1,0 +1,214 @@
+h1{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    /* identical to box height, or 54% */
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: $secondary-color;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.title-paragraph{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height, or 118% */
+    letter-spacing: 6.82px;
+    color: $secondary-color;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+
+.homepage{
+    background-image: url(/images/homepage.jpg);
+    width: 100%;
+    max-width: 1770px;
+    height: 100vh;
+    max-height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-container{
+    margin: auto;
+}
+
+
+
+//FORM//
+.form-container{
+    max-width: 503px;
+    height: 63px;
+    background: $secondary-color;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    letter-spacing: 2.8px;
+    color: #999999;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 153px;
+    height: 63px;
+    background: #5474FD;
+    border: 2px solid $secondary-color;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: $secondary-color;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.placeholder{
+    width: 503px;
+    height: 63px;
+    border: none;
+    font-family: $main-font;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    letter-spacing: 2.8px;
+    color: #5474FD;
+    text-align: center;
+
+}
+
+input::placeholder{
+    color: #999999;
+
+}
+
+////
+
+.scroll{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    letter-spacing: 2.8px;
+}
+
+.scroll-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $secondary-color;
+    margin-top: 50px;
+}
+
+.logo{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: $secondary-color;
+    &:link{
+        text-decoration: none;
+        color: $secondary-color;
+    }
+    &:visited{
+        text-decoration: none;
+        color: $secondary-color;
+    }
+    &:hover{
+        opacity: 50%;
+        padding-bottom: 3px;
+        transition: all 0.3s ease-in;
+    }
+    &:active{
+        text-decoration: none;
+        color: $secondary-color;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1773px;
+    height: 83px;
+    background-color: #5474FD;
+}
+
+ul{
+    display: flex;
+    gap: 42px;
+    font-family: $secondary-font;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.menu-item{
+    text-decoration: none;
+    &:link{
+        text-decoration: none;
+        color: $secondary-color;
+    }
+    &:visited{
+        text-decoration: none;
+        color: $secondary-color;
+    }
+    &:hover{
+        opacity: 50%;
+        border-bottom: 2px solid $secondary-color;
+        padding-bottom: 3px;
+        transition: all 0.3s ease-in;
+    }
+    &:active{
+        text-decoration: none;
+        color: $secondary-color;
+    }
+}
+
+
