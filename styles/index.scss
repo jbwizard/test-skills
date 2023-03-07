@@ -27,14 +27,16 @@ $secondary-color: #FFFFFF;
 }
 
 @mixin h3 {
-    font: $main-font;
+    font-family: $main-font;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     /* identical to box height, or 130% */
+    display: flex;
+    align-items: center;
     text-transform: uppercase;
-    color: $secondary-color;
+    color: #FFFFFF;
 }
 
 @mixin btn{
@@ -71,3 +73,4 @@ a:hover{
 
 @import 'homepage';
 @import 'why-choose-us';
+@import 'spain';

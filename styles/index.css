@@ -441,3 +441,66 @@ h2 {
   -ms-flex-item-align: start;
       align-self: flex-start;
 }
+
+.title_spain {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 13px;
+  margin-top: 23px;
+}
+
+.before-title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+}
+
+.spain_section-one {
+  background-image: url(/images/house-madrid.jpg);
+  width: 100%;
+  max-width: 1770px;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spain-bg {
+  width: 1113px;
+}
+
+.spain_info-container {
+  max-width: 543px;
+  height: 374px;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  padding: 49px 32px 32px 49px;
+}
+
+.text-spain {
+  margin-bottom: 46px;
+}
