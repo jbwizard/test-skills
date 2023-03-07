@@ -1,14 +1,25 @@
 @media screen and (max-width: 800px) {
+
+    h1{
+        font-size: 34px;
+    }
+    .title-paragraph{
+        font-size: 18px;
+    }
     .homepage{
         display: flex;
         flex-direction: column-reverse;
     }
     .form{
-        max-width: 150px;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 20px;
+    }
+
+    .placeholder{
+        max-width: 250px;
+        font-size: 10px;
     }
     
     .info-container{

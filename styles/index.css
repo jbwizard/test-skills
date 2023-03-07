@@ -673,6 +673,12 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  h1 {
+    font-size: 34px;
+  }
+  .title-paragraph {
+    font-size: 18px;
+  }
   .homepage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -683,7 +689,6 @@ footer {
             flex-direction: column-reverse;
   }
   .form {
-    max-width: 150px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-align: center;
@@ -693,6 +698,10 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 20px;
+  }
+  .placeholder {
+    max-width: 250px;
+    font-size: 10px;
   }
   .info-container {
     height: 80vh;
