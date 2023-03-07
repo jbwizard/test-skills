@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .homepage{
         display: flex;
         flex-direction: column-reverse;
@@ -12,12 +12,13 @@
     }
     
     .info-container{
-        height: 100vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
+
 
    .logo{
         margin-left: 20px;
@@ -130,6 +131,7 @@
         max-width: 290px;
         height: 400px;
         padding-top: 20px;
+        margin-bottom: 40px;
     }
 
     .section_third-container{
@@ -141,7 +143,69 @@
     }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) and (max-width:999px){
+    h2{
+        font-size: 30px;
+    }
 
+    .text{
+        font-size: 16px;
+    }
+
+    .text-container{
+        margin-top: 40px;
+        margin-bottom: 50px;
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn{
+        max-width: 150px;
+        font-size: 12px;
+    }
+
+    .spain_info-container{
+        max-width: 500px;
+    }
+    .spain-bg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .spain_info-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spain-bg-two{
+        justify-content: center;
+    }
+
+    .info-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hiker-img{
+        max-width: 500px;
+    }
+
+    .section_third-container{
+        padding-top: 40px;
+    }
+
+    .section_third-txt-container{
+        max-width: 397px;
+        min-height: 400px;
+        padding-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .quote-txt{
+        text-indent: 15%;
+    }
 }
 

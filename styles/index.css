@@ -546,7 +546,7 @@ h2 {
 .our-tourists {
   width: 100%;
   max-width: 1770px;
-  height: 731px;
+  min-height: 731px;
   background-image: url(/images/person-hiking.jpg);
   margin: auto;
   display: -webkit-box;
@@ -644,6 +644,7 @@ footer {
   color: #E8E8E8;
   margin-top: 8px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .footer-container {
@@ -667,7 +668,11 @@ footer {
   color: #5474FD;
 }
 
-@media screen and (max-width: 600px) {
+.logo {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
   .homepage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -690,7 +695,7 @@ footer {
     gap: 20px;
   }
   .info-container {
-    height: 100vh;
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -834,11 +839,91 @@ footer {
     max-width: 290px;
     height: 400px;
     padding-top: 20px;
+    margin-bottom: 40px;
   }
   .section_third-container {
     margin-top: 40px;
   }
   .quote-txt {
     text-indent: 20%;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 999px) {
+  h2 {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .text-container {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    max-width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .btn {
+    max-width: 150px;
+    font-size: 12px;
+  }
+  .spain_info-container {
+    max-width: 500px;
+  }
+  .spain-bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .spain_info-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spain-bg-two {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .info-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hiker-img {
+    max-width: 500px;
+  }
+  .section_third-container {
+    padding-top: 40px;
+  }
+  .section_third-txt-container {
+    max-width: 397px;
+    min-height: 400px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+  }
+  .quote-txt {
+    text-indent: 15%;
   }
 }

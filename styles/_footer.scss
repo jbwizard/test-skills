@@ -13,6 +13,7 @@ footer{
     @include paragraph-normal;
     margin-top: 8px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .footer-container{
@@ -31,3 +32,6 @@ footer{
     }
 }
 
+.logo{
+    text-align: center;
+}
